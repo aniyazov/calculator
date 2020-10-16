@@ -49,6 +49,9 @@ class Calculator{
 			case '√':
 				computation = Math.sqrt(prev, current)
 				break
+			case '^':
+				computation = Math.pow(prev, current);
+				break
 			default:
 				return   
 		}
